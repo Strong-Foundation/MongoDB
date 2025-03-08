@@ -35,7 +35,7 @@ docker run -d --name mongodb-container -p 27017:27017 my-mongodb
 You can access the running MongoDB instance using a MongoDB client or via the command line:
 
 ```sh
-docker exec -it mongodb-container mongosh
+docker exec -it mongodb-container bash
 ```
 
 ## Cleaning Up
